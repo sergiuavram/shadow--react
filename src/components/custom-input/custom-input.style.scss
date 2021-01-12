@@ -1,0 +1,21 @@
+.custom-input{
+    text-align: center;
+
+    & input{
+        font-size: 15px;
+        padding: 5px 10px;
+        border: none;
+        margin: 5px;
+    }
+
+    & .empty{
+        width: 180px;
+        margin: 0 auto;
+        padding-bottom: 03px;
+        border-radius: 100px;
+        color: red;
+        background-color: black;
+        font-weight: 500;
+        font-size: 13px;
+    }
+}

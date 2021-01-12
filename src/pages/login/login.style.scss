@@ -1,0 +1,54 @@
+.login{
+    position: relative;
+
+    & .content{
+        width: 320px;
+        margin: 85px auto 0 auto;
+        background-color: #4D7EFF;
+        border-radius: 5px;
+
+        & .title{
+            text-align: center;
+            padding: 20px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        & .or{
+            text-align: center;
+            padding: 50px;
+        }
+
+        & .line{
+            height: 2px;
+            background-color: black;
+            width: 250px;
+            margin: 0 auto;
+        }
+
+        & a{
+            color: white;
+            font-size: 13px;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            padding: 10px 0;
+        }
+
+        & a:hover{
+            font-weight: 500;
+        }
+
+        .errorRequest{
+            position: absolute;
+            width: 320px;
+            text-align: center;
+            margin-top: 10px;
+            color: red;
+            font-weight: 400;
+            background-color: black;
+            padding: 5px 0;
+        }
+    }
+
+}

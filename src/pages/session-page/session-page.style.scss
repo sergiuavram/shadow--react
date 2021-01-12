@@ -1,0 +1,42 @@
+.session-page{
+    position: relative;
+    width: 700px;
+    margin: 0 auto;
+
+    & .title{
+        margin-left: 50px;
+    }
+
+    & .stats {
+        display: grid;
+        text-align: center;
+
+        & .divider-verticaly{
+            background-color: black;
+            width: 2px;
+            height: 60px;
+            border-radius: 10px;
+        }
+
+        .divider-horizontaly{
+            background-color: black;
+            height: 2px;
+            width: 500px;
+            border-radius: 10px;
+            margin: 0 auto;
+        }
+        
+        & .row{
+            display: grid;
+            grid-template-columns: 3fr 10fr 1fr 10fr 3fr;
+            place-items: center;
+        }
+    }
+
+    & .comment{
+        margin: 20px auto;
+        width: 560px;
+        background-color: rgb(196, 196, 196);
+        padding: 20px;
+    }
+}

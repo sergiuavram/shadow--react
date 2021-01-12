@@ -1,0 +1,19 @@
+button{
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    border:none;
+    font-size: 14px;
+
+    & span{
+        font-weight: 300;
+        width: 100px;
+        height: 100%;
+        // transition: 500ms;
+    }
+    & :hover span{
+        font-weight: 600;
+        // transition: 500ms;
+    }
+}
+
